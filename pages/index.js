@@ -1,10 +1,7 @@
-import Nav from '../components/nav'
+import DragOnePoint from "../components/DragOnePoint"
 
-export default () => (
-  <div>
-    <Nav />
-    <div className="hero">
-      <h1 className="title">Next.js + Tailwind CSS</h1>
-    </div>
-  </div>
-)
+export default () => {
+  return (
+    <DragOnePoint />
+  )
+}

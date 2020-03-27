@@ -1,5 +1,5 @@
 {
-  "name": "with-tailwindcss",
+  "name": "drag-one-point",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,6 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "d3": "^5.15.0",
+    "framer-motion": "^1.10.2",
+    "immer": "^6.0.2",
     "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
